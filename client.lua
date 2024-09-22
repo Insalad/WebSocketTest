@@ -5,7 +5,7 @@
 --        the websocket client.
 
 
-local wbproto = require "resty.websocket.protocol" 
+local wbproto = loadstring(game:HttpGet("https://raw.githubusercontent.com/Insalad/WebSocketTest/refs/heads/main/protocol.lua"))()
 local bit = require "bit"
 
 
