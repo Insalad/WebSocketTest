@@ -1,7 +1,7 @@
 -- Copyright (C) Yichun Zhang (agentzh)
 
 
-local bit = require "bit"
+local bit = loadstring(game:HttpGet("https://raw.githubusercontent.com/horvand/lua54-bit32/refs/heads/main/bit32.lua"))()
 local ffi = require "ffi"
 
 
