@@ -6,7 +6,7 @@
 
 
 local wbproto = loadstring(game:HttpGet("https://raw.githubusercontent.com/Insalad/WebSocketTest/refs/heads/main/protocol.lua"))()
-local bit = require "bit"
+local bit = loadstring(game:HttpGet("https://raw.githubusercontent.com/horvand/lua54-bit32/refs/heads/main/bit32.lua"))()
 
 
 local _recv_frame = wbproto.recv_frame
