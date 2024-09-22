@@ -2,7 +2,7 @@
 
 
 local bit = require "bit"
-local wbproto = require "resty.websocket.protocol"
+local wbproto = loadstring(game:HttpGet("https://raw.githubusercontent.com/Insalad/WebSocketTest/refs/heads/main/protocol.lua"))()
 
 local new_tab = wbproto.new_tab
 local _recv_frame = wbproto.recv_frame
