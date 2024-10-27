@@ -1,7 +1,7 @@
 -- Copyright (C) Yichun Zhang (agentzh)
 
 
-local bit = loadstring(game:HttpGet("https://raw.githubusercontent.com/horvand/lua54-bit32/refs/heads/main/bit32.lua"))()
+local bit = bit32
 local wbproto = loadstring(game:HttpGet("https://raw.githubusercontent.com/Insalad/WebSocketTest/refs/heads/main/protocol.lua"))()
 
 local new_tab = wbproto.new_tab
