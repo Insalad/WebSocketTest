@@ -1,4 +1,4 @@
-local bit = loadstring(game:HttpGet("https://raw.githubusercontent.com/horvand/lua54-bit32/refs/heads/main/bit32.lua"))()
+local bit = bit32
 
 local byte = string.byte
 local char = string.char
